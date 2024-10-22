@@ -1,3 +1,4 @@
+
 const students = [
   { name: "Alice", age: 20, grade: 85 },
   { name: "Bob", age: 22, grade: 90 },
@@ -52,8 +53,8 @@ const goodRatingProductsNames = products
   .filter((product) => product.rating >= 4.5)
   .forEach((goodproduct) => console.log(goodproduct.name));
 
+
+
 const cheapElectronics = products
-  .filter(
-    (product) => product.category === "Electronics" && product.price < 1000
-  )
+  .filter((product) => product.category === "Electronics" && product.price < 1000)
   .forEach((product) => console.log(product.name));
